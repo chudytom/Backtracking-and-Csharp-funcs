@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 
-namespace BacktrackingPodstawy
+namespace BacktrackingAndFuncs
 {
     internal class Program
     {
@@ -47,7 +47,7 @@ namespace BacktrackingPodstawy
             {
                 PrintBoard(solution);
             }
-            Console.WriteLine($"Liczba znalezionych rozwiązań {solutions.Count}");
+            Console.WriteLine($"Solutions found: {solutions.Count}");
         }
 
         private bool PutQueen(int row, int column, int queenNumber)
